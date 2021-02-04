@@ -140,7 +140,7 @@ public class Nine{
             int count = 0;
             for(Map.Entry<String, Integer> e : freq_sorted.entrySet()){
                 if (count < 25){
-                System.out.println(e.getKey()+" -> "+e.getValue());
+                System.out.println(e.getKey()+" - "+e.getValue());
                 count += 1;
                 }
                 else{

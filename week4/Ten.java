@@ -154,7 +154,7 @@ public class Ten{
             String to_return = "";
             for(Map.Entry<String, Integer> e : freq_sorted.entrySet()){
                 if (count < 25){
-                    to_return += e.getKey()+" -> "+e.getValue();
+                    to_return += e.getKey()+" - "+e.getValue();
                     if(count != 24){
                         to_return += "\n";
                     }
